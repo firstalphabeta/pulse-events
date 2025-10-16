@@ -27,7 +27,7 @@ const eventTypes = [
     subtitle: "Poolside Event",
     rate: "Ghc 1,500 / hour",
     maxCapacity: 50,
-    image: process.env.PUBLIC_URL + "/poolside-2.jpg",
+    image: "https://ibb.co/zW1xs5xK",
   },
   {
     id: "studio",
@@ -44,7 +44,7 @@ const eventTypes = [
     subtitle: "Padel Court Event",
     rate: "Ghc 1,500 / hour",
     maxCapacity: 150,
-    image: process.env.PUBLIC_URL + "/padel-2.jpg",
+    image: "https://ibb.co/DD8SyyTZ",
   },
 ];
 
