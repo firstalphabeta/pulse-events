@@ -45,8 +45,7 @@ const eventTypes = [
     subtitle: "Padel Court Event",
     rate: "Ghc 1,500 / hour",
     maxCapacity: 150,
-    image:
-      "https://blog.davidlloyd.co.uk/wp-content/uploads/2024/02/DL-Padel-13.09.236229-1-scaled.jpg", // ✅ Unsplash Padel Court
+    image: process.env.PUBLIC_URL + "/padel.jpg", 
   },
 ];
 
