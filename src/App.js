@@ -27,7 +27,8 @@ const eventTypes = [
     subtitle: "Poolside Event",
     rate: "Ghc 1,500 / hour",
     maxCapacity: 50,
-    image: "https://ibb.co/zW1xs5xK",
+    image:
+      "https://emilyandblair.com/wp-content/uploads/2025/03/Screenshot-2025-03-25-210748-1024x650.png", // ✅ Unsplash Poolside
   },
   {
     id: "studio",
@@ -44,7 +45,8 @@ const eventTypes = [
     subtitle: "Padel Court Event",
     rate: "Ghc 1,500 / hour",
     maxCapacity: 150,
-    image: "https://ibb.co/DD8SyyTZ",
+    image:
+      "https://blog.davidlloyd.co.uk/wp-content/uploads/2024/02/DL-Padel-13.09.236229-1-scaled.jpg", // ✅ Unsplash Padel Court
   },
 ];
 
@@ -554,7 +556,9 @@ export default function App() {
             </div>
           </main>
 
-          <footer style={{ marginTop: 18, textAlign: "center", color: "#475569" }}>
+          <footer
+            style={{ marginTop: 18, textAlign: "center", color: "#475569" }}
+          >
             <p style={{ margin: 0 }}></p>
           </footer>
         </div>
